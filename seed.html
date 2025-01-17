@@ -1,108 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="index.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div class="container-fluid">
-      <!-- Content here -->
-      <section class="container-fluid">
-        <br />
-        <div class="row mt-5">
-          <div class="col-sm-6 mt-1">
-            <div class="body">
-              <div class="card-body mt-4">
-                <img
-                  src="img/trees.jpg"
-                  class="img-fluid rounded-start"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mt-5" style="width: 600px">
-            <div class="">
-              <div class="card-body" style="font-family: tomorrow">
-                <h5 class="card-title" style="font-size: 56px">
-                  A powerful united <br />
-                  force for forests
-                </h5>
-                <br />
-                <p class="card-text">
-                  Since 2016, Trillion Trees has brought together the power of
-                  three of the world’s largest conservation organizations –
-                  BirdLife International, Wildlife Conservation Society and WWF.
-                  We combine decades of experience and measurable. <br />
-                  success to test and evolve innovative models for forest
-                  conservation. <br />
-                  Together we have the power to influence international policy
-                  and mobilise our implementation network in over 60 countries.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container-fluid">
-        <br />
-        <div class="row mt-5">
-          <div class="col-sm-6 mt-5" style="width: 600px">
-            <div class="">
-              <div class="card-body" style="font-family: tomorrow">
-                <h5 class="card-title ms-3" style="font-size: 56px">
-                  A powerful united <br />
-                  force for forests
-                </h5>
-                <br />
-                <p class="card-text ms-3">
-                  Since 2016, Trillion Trees has brought together the power of
-                  three of the world’s largest conservation organizations –
-                  BirdLife International, Wildlife Conservation Society and WWF.
-                  We combine decades of experience and measurable. success to
-                  test and evolve innovative models for forest conservation.
-                  Together we have the power to influence international policy
-                  and mobilise our implementation network in over 60 countries.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 mt-2">
-            <div class="body">
-              <div class="card-body mt-4">
-                <img
-                  src="img/trees.jpg"
-                  class="img-fluid rounded-start"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
-‎seed.html
--273
-Original file line number	Diff line number	Diff line change
-@@ -1,273 +0,0 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -114,8 +12,127 @@ Original file line number	Diff line number	Diff line change
     />
   </head>
   <body>
+
+    <nav class="navbar navbar-expand-lg bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-2" href="#"
+          ><img width="200" src="img/logo-garden.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white rounded ms-5"
+                aria-current="page"
+                href="#"
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white rounded bg-success ms-5"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ms-4" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ms-4" href="#">Tree</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ms-5" href="#">Seed</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ms-4" href="#">Donation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ms-4" href="#">FAQ</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <span
+              class="border me-5 mt-1 border-black bg-success rounded d-flex justify-content-center"
+            >
+              <img src="img/Screenshot 2025-01-15 195124.png" alt="" />
+            </span>
+            <button class="btn btn-outline-success" type="submit">
+              Contact Us
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="p-3 bg-success"></div>
+
+    <div class="card border-white rounded-0 text-bg-dark">
+      <img
+        src="img/Screenshot 2025-01-15 201310.png"
+        height="550"
+        class="card-img"
+        alt="..."
+      />
+      <div class="card-img-overlay">
+        <div class="container-fluid">
+          <div class="row mt-5">
+            <div id="border">
+              <div
+                class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
+              >
+                <div class="col mt-5" style="max-width: 34rem">
+                  <div class="">
+                    <div class="">
+                      <h1 class="">
+                        Trillion
+                        <span class="text-success">Trees</span>
+                      </h1>
+                      <p class="">
+                        With your support, we can continue to protect and
+                        restore the world’s forests, based on science and proven
+                        impact <br /><br />
+                        We are working together to speed up and scale up the
+                        positive power of forests for people, nature and the
+                        climate.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div
+                    class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
+                  >
+                    <img
+                      src="img/Pasted image (4).png"
+                      style="max-width: 43rem"
+                      class="card-img-top rounded-1"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container-fluid text-center">
-      <h1>Latest news and research on Seed</h1>
+      <h1>Latest news and research on </h1>
+      <h1 class="text-success"></h1>
       <p>The triek to successful planting is good planning.</p>
       <section class="container-fluid">
         <div class="row row-cols-1 row-cols-md-4 g-4">
@@ -127,14 +144,15 @@ Original file line number	Diff line number	Diff line change
                 <h3 class="card-title">Botany</h3>
                 <p class="card-text">
                   <br />
-                  Botany, also called plant <br />
-                  science or phytology, is the <br />
-                  branchof naturalscience and  <br />
-                  biology study.
+                  Botany, also called plant <br />
+                  science or phytology, is the <br />
+                  branchof naturalscience and  <br />
+                  biology study.
                 </p>
               </div>
             </div>
           </div>
+
           <div class="col shadow p-3 mb-5 bg-body">
             <div class="h-100">
               <img src="img/ovule.jpeg" class="card-img-top h-50" alt="..." />
@@ -143,7 +161,7 @@ Original file line number	Diff line number	Diff line change
                 <h3 class="card-title">Ovule</h3>
                 <p class="card-text">
                   <br />
-                  the ovule is the structure that <br />
+                  the ovule is the structure that <br />
                   gives rise to and contains the <br />
                   female reproductive cells. It <br />
                   consists of three parts:
@@ -151,6 +169,7 @@ Original file line number	Diff line number	Diff line change
               </div>
             </div>
           </div>
+
           <div class="col shadow p-3 mb-5 bg-body">
             <div class="h-100">
               <img src="img/bur.jpeg" class="card-img-top h-50" alt="..." />
@@ -159,14 +178,15 @@ Original file line number	Diff line number	Diff line change
                 <h3 class="card-title">Bur</h3>
                 <p class="card-text">
                   <br />
-                  A bur (also spelled burr)[1] is <br />
-                  a seed ordry fruit or infructes <br />
-                  cence that has hooks or <br />
-                  teeth. 
+                  A bur (also spelled burr)[1] is <br />
+                  a seed ordry fruit or infructes <br />
+                  cence that has hooks or <br />
+                  teeth. 
                 </p>
               </div>
             </div>
           </div>
+
           <div class="col shadow p-3 mb-5 bg-body-">
             <div class="h-100">
               <img
@@ -189,6 +209,7 @@ Original file line number	Diff line number	Diff line change
           </div>
         </div>
       </section>
+
       <section class="container-fluid">
         <div class="row row-cols-1 row-cols-md-4 g-4">
           <div class="col shadow p-3 mb-5 bg-body">
@@ -199,14 +220,15 @@ Original file line number	Diff line number	Diff line change
                 <h3 class="card-title">Gunnera</h3>
                 <p class="card-text">
                   <br />
-                  Gunnera captures sunlight <br />
-                  for photosynthesis over the <br />
+                  Gunnera captures sunlight <br />
+                  for photosynthesis over the <br />
                   large surfaces of its leaves, <br />
                   which are supported by ..
                 </p>
               </div>
             </div>
           </div>
+
           <div class="col shadow p-3 mb-5 bg-body">
             <div class="h-100">
               <img src="img/bean.jpg" class="card-img-top h-50" alt="..." />
@@ -215,14 +237,15 @@ Original file line number	Diff line number	Diff line change
                 <h3 class="card-title">Beans</h3>
                 <p class="card-text">
                   <br />
-                  bean[3] isa herbaceous annual <br />
-                  plant grown worldwide for <br />
+                  bean[3] isa herbaceous annual <br />
+                  plant grown worldwide for <br />
                   its edible dry seeds or <br />
-                   green, unripe pods.
+                   green, unripe pods.
                 </p>
               </div>
             </div>
           </div>
+
           <div class="col shadow p-3 mb-5 bg-body">
             <div class="h-100">
               <img
@@ -235,14 +258,15 @@ Original file line number	Diff line number	Diff line change
                 <h3 class="card-title">Mangrove palm</h3>
                 <p class="card-text">
                   <br />
-                  mangrove palm,[4] is <br />
-                  a species of palm native to <br />
-                  thecoastlinesand estuarine <br />
+                  mangrove palm,[4] is <br />
+                  a species of palm native to <br />
+                  thecoastlinesand estuarine <br />
                   habitats.
                 </p>
               </div>
             </div>
           </div>
+
           <div class="col shadow p-3 mb-5 bg-body-">
             <div class="h-100">
               <img
@@ -256,8 +280,8 @@ Original file line number	Diff line number	Diff line change
                 <br />
                 <p class="card-text">
                   ecological system is a <br />
-                  systemformedby organisms  <br />
-                  ininteractionwiththeir  <br />
+                  systemformedby organisms  <br />
+                  ininteractionwiththeir  <br />
                   environment.
                 </p>
               </div>
@@ -265,6 +289,7 @@ Original file line number	Diff line number	Diff line change
           </div>
         </div>
       </section>
+
     
    <div class="container-fluid">
       <div class="row mt-5">
@@ -279,6 +304,7 @@ Original file line number	Diff line number	Diff line change
           <div class="">
             <div class="">
               <h1 class="">Fighting Climate Change</h1>
+
               <p class="">
                 Climate change is the biggest challenge facing the health of our
                 planet. And while it will take many solutions working together
@@ -295,7 +321,7 @@ Original file line number	Diff line number	Diff line change
             class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
           >
             <img
-              src="img/Planting and maintaining trees .webp"
+              src="img/Planting and maintaining trees .webp"
               style="max-width: 33rem"
               class="card-img-top"
               alt="..."
@@ -304,50 +330,76 @@ Original file line number	Diff line number	Diff line change
         </div>
       </div>
     </div>
+
       <section class="container-fluid">
         <div class="container-fluid">
           <div class="row row-cols-1 row-cols-md-2 mt-5 ">
             <div class="text">
               <div class="card-body">
             
+
+
  <div class="text-success">
  <hr>
  </div>
+
+<br>
 <div class="text-black">
   <h3>The Right Tree for the Right Place</h3>
   <p>This bulletin explains the benefits of planting <br>
      the right trees in the right places.</p>
+     
   <hr>
 </div>
+  <br>
 <hr class="text-success ">
+<br>
 <h3>The Right Tree for the Right </h3>
 <p>This bulletin explains the benefits of planting <br>
   the right trees in the right places.</p>
+
+
   <div class="text-success">
     <hr>
     </div>
+    <br>
     <div class="text-success">
       <hr>
       </div>
+
   <div class="text-black">
+    <br>
     <h3>The Right Tree for the Right Place</h3>
-    <p>This bulletin explains the benefits of planting the right trees in the right places.</p>
+    <p>This bulletin explains the benefits of planting 
+      <br>the right trees in the right places.</p>
     <hr>
     </div>
+
+
               </div>
             </div>
             <div class="body">
+
+
               
-              <div class="card-body  bg-success w-200px ; h-100">
-                <img src="img/plant.jpg" alt="" class="mt-4"  style="width: 470px;height: 300px;">
-                <h5 class="card-title"></h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <div class="card-body bg-success  bg-opacity-70 w-200px ; h-230px bggg">
+                <img src="img/plant3.jpg" alt="" class="mt-4"  style="width: 500px; height: 360px;">
+                <h5 class="card-title"></h5><br>
+                <h3 text-black>Planting and maintaining 
+                  trees </h3>
+
+                <p class="card-text text-white">This bulletin explains how to choose a tree based on 
+                 space and climate, plant it correctly, and provide
+                 ongoing care for its health.Most Trillion Trees 
+                 projects involve a broad, science-led approach to 
+                 forest conservation. If you prefer your donation to 
+                 be spent specifically on forest restoration, such as 
+                 tree planting, you can support our ReForest Fund.</p>
               </div>
             </div>
-            <div class="card">
-          </div>
-        </div>
+            </div>
       </section>
     </div>
   </body>
 </html>
+
