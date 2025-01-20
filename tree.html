@@ -1,263 +1,211 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="index.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>XTRA</title>
+    <link rel="icon" href="img/logo-garden.png">    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
+  <style>
+    li{
+        color: aliceblue;
+        margin-left: 10%;
+    }
+ 
+   
+  
+  </style>
   <body>
-    <nav class="navbar navbar-expand-lg bg-black">
-      <div class="container-fluid">
-        <a class="navbar-brand ms-2" href="#"
-          ><img width="200" src="img/logo-garden.png" alt=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
-          >
-            <li class="nav-item">
-              <a
-                class="nav-link active text-white rounded ms-5"
-                aria-current="page"
-                href="#"
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active text-white rounded bg-success ms-5"
-                aria-current="page"
-                href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white ms-4" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white ms-4" href="tree.html">Tree</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white ms-5" href="seed.html">Seed</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white ms-4" href="#">Donation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white ms-4" href="#">FAQ</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <span
-              class="border me-5 mt-1 border-black bg-success rounded d-flex justify-content-center"
-            >
-              <img src="img/Screenshot 2025-01-15 195124.png" alt="" />
-            </span>
-            <button class="btn btn-outline-success" type="submit">
-              Contact Us
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <div class="p-3 bg-success"></div>
-
-    <div class="card border-white rounded-0 text-bg-dark">
-      <img
-        src="img/Screenshot 2025-01-15 202704.png"
-        height="550"
-        class="card-img"
-        alt="..."
-      />
-      <div class="card-img-overlay">
+    <nav class="navbar navbar-expand-lg bg-black position-fixed" style="z-index: 1; width: 100%;">
         <div class="container-fluid">
-          <div class="row mt-5">
-            <div id="border">
-              <div
-                class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
-              >
-                <div class="col mt-5" style="max-width: 34rem">
-                  <div class="">
-                    <div class="">
-                      <h1 class="">
-                        Trillion
-                        <span class="text-success">Trees</span>
-                      </h1>
-                      <p class="">
-                        With your support, we can continue to protect and
-                        restore the world’s forests, based on science and proven
-                        impact <br /><br />
-                        We are working together to speed up and scale up the
-                        positive power of forests for people, nature and the
-                        climate.
-                      </p>
+          <a class="navbar-brand ms-2" href="#"><img width="200" src="img/logo-garden.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"></a>
+                  </li>
+                
+              <li class="nav-item">
+                <a class="nav-link active text-white " href="index.html">Home</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white rounded bg-success" aria-current="page" href="tree.html">Tree</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="seed.html">Seed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="dinate.html">Donation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="FQ.html">FAQ</a>
+              </li>
+             
+             
+            </ul>
+            <form class="d-flex" role="search">
+                <span  class="border me-5 mt-1 border-black bg-success rounded d-flex justify-content-center 
+                " >
+          <img src="img/Screenshot 2025-01-15 195124.png" alt="">
+                </span>
+                <button class="btn btn-outline-success" type="submit">  <a class="name" href="contact.html">Contact Us</a></button>
+
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="p-3  " id="button"></div> 
+
+      <div class="card border-white rounded-0 text-bg-dark">
+        
+        <img src="img/Screenshot 2025-01-15 202704.png" height="550" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <div class="container-fluid">
+                <div class="row mt-5">
+                  <div id="border">
+                    <div
+                      class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
+                    >
+                      <div class="col mt-5" style="max-width: 34rem">
+                        
+                        <div class="">
+                          <div class="">
+                            <h1 class="">
+                                
+                                <span class="text-success">Trillion </span> Trees</h1>
+          
+                            <p class="">
+                                With your support, we can continue to protect and restore the world’s forests, based on science and proven impact
+                                .
+                                We are working together to speed up and scale up the positive power of forests for people, nature and the climate.                            </p>
+                            <button class="btn rounded-0 btn-outline-success" type="submit">invest in the world’s forest</button>
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div
+                          class="row  row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
+                        >
+                          <img
+                            src="img/trees.jpg "
+                            style="max-width: 43rem"
+                            class="card-img-top rounded-1 "
+                            alt="..."
+                          />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div
-                    class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
-                  >
-                    <img
-                      src="img/CaficultoresSandiaPuno_DanielSilva_WCS-scaled.jpg "
-                      style="max-width: 43rem"
-                      class="card-img-top rounded-1"
-                      alt="..."
-                    />
-                  </div>
+               
+              </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div id="border">
+          
+         
+       
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="">
+              <div class="col">
+                <div
+                  class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
+                >
+                  <img
+                    src="img/tree1.jpg"
+                    style="max-width: 37rem; height: 400px;"
+                    class="card-img-top rounded-3"
+                    alt="..."
+                  />
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row mt-4">
-        <div id="border">
-          <div
-            class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
-          >
+          
+          <div class="col d-flex justify-content-center ">
             <div class="col mt-5" style="max-width: 34rem">
-              <br /><br /><br /><br />
+              
               <div class="">
                 <div class="">
-                  <h1 class="">A powerful united force for forests</h1>
-
+                  <h1 class="">A powerful united 
+                    force for forests</h1>
+  
                   <p class="">
-                    Since 2016, Trillion Trees has brought together the power of
-                    three of the world’s largest conservation organizations –
-                    BirdLife International, Wildlife Conservation Society and
-                    WWF. We combine decades of experience and measurable success
-                    to test and evolve innovative models for forest
-                    conservation. Together we have the power to influence
-                    international policy and mobilise our implementation network
-                    in over 60 countries.
-                  </p>
+                    Since 2016, Trillion Trees has brought together the power of three of the world’s largest conservation organizations – BirdLife International, Wildlife Conservation Society and WWF. We combine decades of experience and measurable success to test and evolve innovative models for forest conservation. Together we have the power to influence international policy and mobilise our implementation network in over 60 countries.
+                                
+                   <button class="btn rounded-0 btn-outline-success mt-3" type="submit">Question and Answer</button>
+
                 </div>
               </div>
             </div>
-
-            <div class="col">
-              <div
-                class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
-              >
-                <img
-                  src="img/tree4.webp "
-                  style="max-width: 33rem"
-                  class="card-img-top"
-                  alt="..."
-                />
-              </div>
-            </div>
           </div>
         </div>
-      </div>
-      <br /><br /><br />
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="">
-            <div class="col">
-              <div
-                class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
-              >
-                <img
-                  src="img/tree2.jpg"
-                  style="max-width: 37rem"
-                  class="card-img-top"
-                  alt="..."
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="col mt-5" style="max-width: 34rem">
-            <br /><br /><br />
+    
+         
+    
+  </div>
+  <div class="container-fluid">
+    <div class="row mt-5">
+      <div id="border">
+        <div
+          class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
+        >
+          <div class="col mb-5" style="max-width: 34rem">
+            <br /><br />
             <div class="">
               <div class="">
                 <h1 class="">Science-led for lasting impact</h1>
 
                 <p class="">
-                  We focus efforts on quality interventions in high-impact areas
-                  that do actually move the needle. We consider the wider
-                  context and delicate balance between people, nature and
-                  climate to find solutions for forests that work for all and in
-                  the long term.
+                  Since 2016, Trillion Trees has brought together the power of
+                  three of the world’s largest conservation organizations –
+                  BirdLife International, Wildlife Conservation Society and
+                  WWF. We combine decades of experience and measurable success
+                  to test and evolve innovative models for forest
+                  conservation. Together we have the power to influence
+                  international policy and mobilise our implementation network
+                  in over 60 countries.
                 </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div
-        class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
-      >
-        <div class="col mt-5" style="max-width: 34rem">
-          <br /><br /><br /><br />
-          <div class="">
-            <div class="">
-              <h1 class="">Nature Needs Forests</h1>
-
-              <p class="">
-                Healthy forests, whether in natural or urban spaces, are key to
-                the health of some of the most biodiverse ecosystems in the
-                world. Trees support wildlife and aquatic life by providing
-                habitat and helping to keep waterways healthy. This ensures that
-                ecosystem balance can be maintained and biodiversity can thrive.
-                Forests rich in biodiversity benefit the human population, too.
-                Trees and other forest life work together to ensure a clean
-                source of drinking water, buffer against extreme weather,
-                provide medicines, offer outdoor recreation, and enrich human
-                culture.
-              </p>
+          <div class="col">
+            <div
+            class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
+            >
+              <img
+                src="img/tree5.webp"
+                style="max-width: 37rem; height: 400px;"
+                class="card-img-top rounded-3"
+                alt="..."
+              />
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div
-            class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center mt-5"
-          >
-            <img
-              src="img/tree5.webp "
-              style="max-width: 35rem"
-              class="card-img-top"
-              alt="..."
-              git
-            />
           </div>
         </div>
       </div>
     </div>
-    <br /><br /><br />
+    
+    
+  </div>
+  <div class="container-fluid">
+    <div class="row mt-5">
+      <div id="border">
+      
+     
+   
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
         <div class="">
@@ -266,157 +214,217 @@
               class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
             >
               <img
-                src="img/tree1.webp"
-                style="max-width: 37rem"
-                class="card-img-top"
+                src="img/tree1.jpg"
+                style="max-width: 37rem; height: 400px;"
+                class="card-img-top rounded-3"
                 alt="..."
               />
             </div>
           </div>
         </div>
       </div>
-      <div class="col">
+      
+      <div class="col d-flex justify-content-center ">
         <div class="col mt-5" style="max-width: 34rem">
-          <br /><br /><br />
+          
           <div class="">
             <div class="">
-              <h1 class="">Science-led for lasting impact</h1>
+              <h1 class="">We are all the network</h1>
 
               <p class="">
-                We focus efforts on quality interventions in high-impact areas
-                that do actually move the needle. We consider the wider context
-                and delicate balance between people, nature and climate to find
-                solutions for forests that work for all and in the long term.
-              </p>
+                Climate change is the biggest challenge facing the health of our planet. And while it will take many solutions working together to make a difference, trees are the proven, affordable, natural way that can be implemented quickly to pull carbon dioxide out of the atmosphere today. Every tree planted is a step in the right direction.
+                <br>                            
+               <button class="btn rounded-0 btn-outline-success mt-3" type="submit">Question and Answer</button>
+
             </div>
           </div>
         </div>
       </div>
     </div>
-    <BR></BR>
-    <div class="card text-bg-dark">
-      <img
-        src="img/Screenshot from 2025-01-17 08-44-29.png"
-        class="card-img"
-        alt="..."
-      />
-    </div>
-    <div class="card text mt-5">
-      <img
-        src="img/tree6.webp"
-        class="card-img"
-        style="max-height: 500px; max: width 1000px"
-      />
-      <div class="card-img-overlay">
-        <h1 class="card-title mt-5 text-light d-flex justify-content-center">
-          Grow a better tomorrow
-        </h1>
-        <p class="card-text text-light d-flex justify-content-center">
-          Our planet needs all of us, more than ever. Join us today to plant
-          trees that grow a more hopeful future..
-        </p>
-        <div class="button" style="display: flex; justify-content: center">
-          <button type="button" class="btn btn-outline-light mt-5 w-25 h-25">
-            <h5>Donation Form</h5>
-          </button>
-        </div>
-      </div>
-    </div>
-    <br><br>
-    <div class="container-fluid">
-      <div class="row bg-black">
-        <div class="col-sm-6 mb-3 mb-sm-0 p-3 border-black">
-          <div class="card" id="button">
-            <div class="card-body">
-              <h5 class="card-title">
-                Speak to April Bagwill about investing for impact in the
-                world's forests.
-              </h5>
-              <p class="card-text">
-                <i class="fa-solid fa-envelope"></i
-                >thoun.sovannareach@institute.pse.ngo
-              </p>
-              <p class="card-text">
-                Download our Trillion Trees overview to share
-              </p>
-              <div class="" style="max-width: 14rem">
-                <a href="#" class="btn btn-dark"
-                  >Download Overview
-                  <i class="fa-solid fa-download"></i>
-                </a>
+
+     
+
+</div>
+  <div class="mt-5">
+    <img src="img/6.png"class="card-img" style="height: 400px;" alt="...">
+  
+  </div>
+  <div class="container-fluid">
+    <div class="row mt-5">
+      <div id="border">
+        <div
+          class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
+        >
+          <div class="col mb-5" style="max-width: 34rem">
+            <br /><br />
+            <div class="">
+              <div class="">
+                <h1 class="">Nature Needs Forests</h1>
+
+                <p class="">
+                    Healthy forests, whether in natural or urban spaces, are key to the health of some of the most biodiverse ecosystems in the world. Trees support wildlife and aquatic life by providing habitat and helping to keep waterways healthy. This ensures that ecosystem balance can be maintained and biodiversity can thrive.
+                    Forests rich in biodiversity benefit the human population, too. Trees and other forest life work together to ensure a clean source of drinking water, buffer against extreme weather, provide medicines, offer outdoor recreation, and enrich human culture.
+                </p>
               </div>
             </div>
           </div>
+          <div class="col">
+            <div
+            class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
+            >
+              <img
+                src="img/tree4.webp"
+                style="max-width: 37rem; height: 400px;"
+                class="card-img-top rounded-3"
+                alt="..."
+              />
+            </div>
+          </div>
         </div>
-        <div class="col-sm-6 p-3">
-          <div class="card bg-black">
-            <div class="bg-black" style="max-width: 27rem">
-              <h5 class="text-white">
-                tay up-to-date with Trillion Trees Receive our regular updates
-                via email
-              </h5>
-              <p class="border-black text-white">
-                Do you agree to the Terms and Conditions? 
-              </p>
-              <div class="row g-3 align-items-center">
-                <div class="col-auto">
-                  <label
-                    for="inputPassword6"
-                    class="col-form-label text-white"
-                    >Emaill anddress</label
-                  >
-                </div>
-                <div class="col-auto">
-                  <input
-                    type="email"
-                    id="inputPassword6"
-                    class="form-control"
-                    aria-describedby="passwordHelpInline"
-                  />
-                </div>
-                <form class="row g-3 d-flex justify-content-around">
-                  <div class="col-auto">
-                    <button
-                      style="width: 150px"
-                      type="submit"
-                      id="button"
-                      class="btn text-white mb-3"
-                    >
-                      Submit
-                    </button>
+      </div>
+    </div>
+    
+    
+  </div>
+  <div class="container-fluid">
+    <div class="row mt-5">
+      <div id="border">
+      
+     
+   
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="">
+          <div class="col">
+            <div
+              class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center"
+            >
+              <img
+                src="img/tree2.jpg "
+                style="max-width: 37rem ; height: 400px;"
+                class="card-img-top rounded-3"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="col" style="max-width: 34rem">
+          
+          <div class="">
+          <h1>  <div class="">Strengthening Communities</h1>
+
+              <p class="">
+                Trees play a critical role in creating healthier, safer, and more connected communities. They clean our air, filter our water, and even slow storm surge and flooding in our cities. Trees also provide shade and cool our cities by up to 10 degrees, which can help prevent heat-related deaths in urban areas.
+                Even as social and economic issues fracture our society, trees continue to connect communities, cultures, and generations. Neighborhood trees have shown the ability to reduce stress, improve overall health and development in children, and encourage physical activity. And a healthy community-wide tree canopy fosters economic advantages as well as an increase in civic pride among residents.              </p>
+                            
+               <button class="btn rounded-0 btn-outline-success mt-3" type="submit">Question and Answer</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <br><br><br>
+  <div class="bg-black mt-5">
+    <div class=" px-4 ">
+      <div class="row gx-5">
+        <div class="">
+          <div class="row bg-black">
+            <div class="col-sm-6 mb-3 mb-sm-0 p-3 border-black">
+              <div class="card" id="button">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Speak to April Bagwill about investing for impact in the
+                    world's forests.
+                  </h5>
+                  <p class="card-text">
+                    <i class="fa-solid fa-envelope"></i
+                    >thoun.sovannareach@institute.pse.ngo
+                  </p>
+                  <p class="card-text">
+                    Download our Trillion Trees overview to share
+                  </p>
+                  <div class=""  id="black" style="max-width: 14rem">
+                    <a href="#" class="btn  text-white"
+                      >Download Overview <span class="text-black">.......</span>
+                      <i class="fa-solid fa-download"></i>
+                    </a>
                   </div>
-                  <div class="col-auto">
-                    <button
-                      style="width: 150px"
-                      type="submit"
-                      class="btn mb-3"
-                    >
-                      <img src="img/witter (1).png" alt="" /><img
-                        class="ms-4"
-                        src="img/ko.png"
-                        alt=""
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 p-3 ">
+              <div class="card bg-black">
+                <div class="bg-black" style="max-width: 27rem">
+                  <h5 class="text-white">
+                    tay up-to-date with Trillion Trees Receive our regular updates
+                    via email
+                  </h5>
+                  <p class="border-black text-white">
+                    Do you agree to the Terms and Conditions? 
+                  </p>
+                  <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                      <label
+                        for="inputPassword6"
+                        class="col-form-label text-white"
+                        >Emaill anddress</label
+                      >
+                    </div>
+                    <div class="col-auto">
+                      <input
+                        type="email"
+                        id="inputPassword6"
+                        class="form-control"
+                        aria-describedby="passwordHelpInline"
                       />
-                    </button>
+                    </div>
+                    <form class="row g-3 d-flex justify-content-around">
+                      <div class="col-auto">
+                        <button
+                          style="width: 150px"
+                          type="submit"
+                          id="button"
+                          class="btn text-white mb-3  rounded-0 btn-outline-success"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                      <div class="col-auto">
+                        <button
+                          style="width: 150px"
+                          type="submit"
+                          class="btn mb-3"
+                        >
+                          <img src="img/witter (1).png" alt="" /><img
+                            class="ms-4"
+                            src="img/ko.png"
+                            alt=""
+                          />
+                        </button>
+                      </div>
+                    </form>
                   </div>
-                </form>
-              </div>
+                </div>
+          
             </div>
-          </div>
-        </div>
-        <div class="card-footer ms-4 text-white">
-          <p>
-            Trillion Trees c/o WCS, The David Attenborough Building, Pembroke
-            Street, Cambridge CB2 3QZ, United Kingdom
-          </p>
-        </div>
+           
       </div>
+    </div>
+    <div class="text-body-secondary ">
+      <p class="text-white">   Privacy Policy
+<br>
+    Trillion Trees c/o WCS, The David Attenborough Building, Pembroke Street, Cambridge CB2 3QZ, United Kingdom      Trillion Trees c/o WCS, The David Attenborough Building,   </p>           </div>
+  </p>           </div>
+  </div>
     </div>
   </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+       
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

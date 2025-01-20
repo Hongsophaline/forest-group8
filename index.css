@@ -1,29 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-h5 {
-  font-family: "Tomorrow", serif;
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Trade+Winds&display=swap');
+
+
+#button{
+    background-color: #439A0D;
 }
-.img {
-  margin-top: 10%;
+#black{
+    background-color: black;
 }
-l {
-  display: flex;
-  align-content: ;
+     /* Container holding the grid */
+.name{
+    text-decoration: none;
+    color: aliceblue;
+
 }
-#button {
-  background-color: #439a0d;
+h1{
+    font-family: "Tomorrow", serif;
+
 }
-h1 {
-  font-family: "Tomorrow", serif;
+h2{
+    font-family: "Tomorrow", serif;
+
 }
-p {
-  font-family: "Tomorrow", serif;
+h3{
+    font-family: "Tomorrow", serif;
+
 }
-h4 {
-  font-family: "Tomorrow", serif;
+h4{
+    font-family: "Tomorrow", serif;
+
 }
-h3 {
-  font-family: "Tomorrow", serif;
+h5{
+    font-family: "Tomorrow", serif;
+
 }
-h2 {
-  font-family: "Tomorrow", serif;
+.name{
+    text-decoration: none;
+    color: aliceblue;
 }
